@@ -81,6 +81,34 @@ export function Table({data}: TableProps) {
         return 0;
     }
 
+    const renderSortIcon = (key: keyof Employee): string => {
+        if (sortKey !== key){
+            return '';
+            // switch (sortDirection) {
+            //     case 'asc':
+            //         return 'up';
+            //     case 'desc':
+            //         return 'down';
+            //     default:
+            //         return '';
+                    
+            }
+            // if (sortDirection === 'asc') {
+            //     return 'up';
+            // } else if (sortDirection === 'desc'){
+            //     return 'down';
+            // }
+        switch (sortDirection) {
+            case 'asc':
+                return 'up';
+            case 'desc':
+                return 'down';
+            default:
+                return '';
+        }
+        
+    }
+
     return (
         <>
             <div className='mb-3'>
@@ -89,11 +117,11 @@ export function Table({data}: TableProps) {
             <table className='table'>
                 <thead>
                 <tr>
-                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'id')}>ID</th>
-                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'firstname')}>Firstname</th>
-                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'lastname')}>Lastname</th>
-                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'salary')}>Salary</th>
-                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'status')}>Status</th>
+                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'id')}>ID {renderSortIcon('id')}</th>
+                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'firstname')}>Firstname {renderSortIcon('firstname')}</th>
+                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'lastname')}>Lastname {renderSortIcon('lastname')}</th>
+                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'salary')}>Salary {renderSortIcon('salary')}</th>
+                    <th className='cursor-pointer' onClick={(event) => handleSort(event,'status')}>Status {renderSortIcon('status')}</th>
                 </tr>
                 </thead>
                 <tbody>
