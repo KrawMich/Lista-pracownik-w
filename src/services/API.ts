@@ -1,7 +1,7 @@
 import { Employee } from "../models/Employee";
 
 export const createEmployee = (newEmployee: Omit<Employee, 'id'>) => {
-    const apiUrl = "http://localhost:3001/employees";
+    const apiUrl = "http://localhost:3000/employees";
 
     return fetch(apiUrl, {
         method: "POST",
@@ -16,7 +16,7 @@ export const createEmployee = (newEmployee: Omit<Employee, 'id'>) => {
 }
 
 export const getAllEmployees = (): Promise<Employee[]> => {
-    const apiUrl = "http://localhost:3001/employees";
+    const apiUrl = "http://localhost:3000/employees";
 
     return fetch(apiUrl, { method: "GET" }).then(response => {
         if (response.ok) {

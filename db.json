@@ -71,6 +71,30 @@
       "postalcode": "11222",
       "status": "FIRED",
       "salary": "50000"
+    },
+    {
+      "id": "1db8",
+      "firstname": "jbkj",
+      "lastname": "nmb",
+      "birthdate": "1991-05-12",
+      "phonenumber": "mnb",
+      "address": "mnb",
+      "city": "mnb",
+      "postalcode": "mnb",
+      "status": "ON_LEAVE",
+      "salary": "5555"
+    },
+    {
+      "id": "46b3",
+      "firstname": "iuyiuy",
+      "lastname": "iuyiu",
+      "birthdate": "1115-12-01",
+      "phonenumber": ";lk;lk",
+      "address": ";lk",
+      "city": ";lk;l",
+      "postalcode": ";lk",
+      "status": "ON_LEAVE",
+      "salary": "7585"
     }
   ]
 }
