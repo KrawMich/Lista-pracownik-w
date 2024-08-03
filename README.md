@@ -1,8 +1,9 @@
-# SDA Projekt koncowy Employees Project
+# SDA ZDFronPol35 Employees Project
 
-Projekt koncowy 
+Projekt końcowy dla grupy SDA ZDFronPol35.
 
 ## Uruchomienie projektu
 
-1. npm instal
-2. npm run dev
+1. npm install
+2. npm run mock-server
+3. npm run dev
