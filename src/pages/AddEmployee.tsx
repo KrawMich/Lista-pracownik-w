@@ -1,7 +1,7 @@
 import React from "react";
-import { Table } from "../components/Table";
 import { Employee } from "../models/Employee";
 import { useNavigate } from "react-router-dom";
+import { Table } from "../components/Tabel";
 
 export function EmployeesPage() {
     const navigate = useNavigate();
@@ -70,7 +70,7 @@ export function EmployeesPage() {
                 <button onClick={handleAddClick} className="btn btn-primary">Add</button>
             </div>
 
-            <Table data={mockData}></Table>  
+            <Table data={mockData}></Table> 
         </>
     )
 }
