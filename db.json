@@ -1,52 +1,16 @@
 {
   "employees": [
     {
-      "id": "5",
-      "firstname": "John",
-      "lastname": "Doe",
-      "salary": 5000,
-      "status": "Na urlopie",
-      "phonenumber": 908908908,
-      "birthdate": "1996-04-04T00:00:00.000Z",
-      "address": "Francuska 22",
-      "postalcode": "44333",
-      "city": "Kraków"
-    },
-    {
-      "id": "2",
-      "firstname": "Jan",
-      "lastname": "Kowalskiego",
-      "salary": 15000,
-      "status": "Na urlopie",
-      "phonenumber": 123123123,
-      "birthdate": "1996-04-04T00:00:00.000Z",
-      "address": "Francuska 22",
-      "postalcode": "44333",
-      "city": "Kraków"
-    },
-    {
       "id": "1",
       "firstname": "Adam",
       "lastname": "Nowak",
+      "salary": 25000,
+      "status": "FIRED",
       "phonenumber": 345345345,
       "birthdate": "1996-04-04T00:00:00.000Z",
-      "salary": 25000,
-      "status": "Na urlopie",
       "address": "Francuska 22",
-      "city": "Kraków",
-      "postalcode": "44333"
-    },
-    {
-      "id": "3",
-      "firstname": "Adam45",
-      "lastname": "Nowak",
-      "phonenumber": 678678678,
-      "birthdate": "1996-04-04T00:00:00.000Z",
-      "salary": 22000,
-      "status": "HIRED",
-      "address": "Francuska 22",
-      "city": "Kraków",
-      "postalcode": "44333"
+      "postalcode": "44333",
+      "city": "Kraków"
     },
     {
       "id": "4a74",
@@ -57,92 +21,20 @@
       "address": "Kraków",
       "city": "Warszawska",
       "postalcode": "11011",
-      "status": "URLOP",
+      "status": "ON_LEAVE",
       "salary": "500000"
     },
     {
-      "id": "cbfe",
-      "firstname": "Jan",
-      "lastname": "Tester",
-      "birthdate": "1999-01-12",
-      "phonenumber": "12312323",
-      "address": "12",
-      "city": "Kraków",
-      "postalcode": "11222",
+      "id": "f45d",
+      "firstname": "John",
+      "lastname": "Doe",
+      "birthdate": "1950-02-12",
+      "phonenumber": "123123123",
+      "address": "Woje",
+      "city": "Warszawa",
+      "postalcode": "10-123",
       "status": "FIRED",
-      "salary": "50000"
-    },
-    {
-      "id": "1db8",
-      "firstname": "jbkj",
-      "lastname": "nmb",
-      "birthdate": "1991-05-12",
-      "phonenumber": "mnb",
-      "address": "mnb",
-      "city": "mnb",
-      "postalcode": "mnb",
-      "status": "ON_LEAVE",
-      "salary": "5555"
-    },
-    {
-      "id": "46b3",
-      "firstname": "iuyiuy",
-      "lastname": "iuyiu",
-      "birthdate": "1115-12-01",
-      "phonenumber": ";lk;lk",
-      "address": ";lk",
-      "city": ";lk;l",
-      "postalcode": ";lk",
-      "status": "ON_LEAVE",
-      "salary": "7585"
-    },
-    {
-      "id": "4068",
-      "firstname": "okok",
-      "lastname": "nmb",
-      "phonenumber": "mnb",
-      "birthdate": "2024-08-20T00:00:00.000Z",
-      "salary": "5555",
-      "status": "FIRED",
-      "address": "mnb",
-      "city": "mnb",
-      "postalcode": "mnb"
-    },
-    {
-      "id": "ee26",
-      "firstname": "jbkj",
-      "lastname": "nmb",
-      "phonenumber": "mnb",
-      "birthdate": "2024-08-12T00:00:00.000Z",
-      "salary": "5555",
-      "status": "FIRED",
-      "address": "mnb",
-      "city": "mnb",
-      "postalcode": "mnb"
-    },
-    {
-      "id": "5bdd",
-      "firstname": "jbkj",
-      "lastname": "nmb",
-      "birthdate": "2024-07-30",
-      "phonenumber": "mnb",
-      "address": "mnb",
-      "city": "mnb",
-      "postalcode": "mnb",
-      "status": "ON_LEAVE",
-      "salary": "5555"
-    },
-    {
-      "id": "64e9",
-      "firstname": "jbkj",
-      "lastname": "nmb",
-      "birthdate": "2024-08-20",
-      "phonenumber": "mnb",
-      "address": "mnb",
-      "city": "mnb",
-      "postalcode": "mnb",
-      "status": "ON_LEAVE",
-      "salary": "5555"
+      "salary": "10000"
     }
   ]
 }
